@@ -1,0 +1,5 @@
+
+flume-ng agent --conf /usr/local/flume/conf/ --conf-file RUTA/1.conf --name a1 -Dflume.root.logger=DEBUG,INFO,console
+flume-ng agent --conf /usr/local/flume/conf/ --conf-file RUTA/2.conf --name a1 -Dflume.root.logger=DEBUG,INFO,console
+flume-ng agent --conf /usr/local/flume/conf/ --conf-file RUTA/3.conf --name a1 -Dflume.root.logger=DEBUG,INFO,console
+
